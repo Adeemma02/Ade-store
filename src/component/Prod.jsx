@@ -17,7 +17,7 @@ const ProductCard = ({
 
   return (
     <div
-      className="relative flex flex-col bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer border border-gray-200 hover:border-blue-500 group"
+      className="relative flex flex-col bg-white overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer border border-gray-200 hover:border-blue-500 group"
       onClick={() => onClick(product)}
     >
       <div className="relative">

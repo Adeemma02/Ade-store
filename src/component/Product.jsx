@@ -390,7 +390,7 @@ const ProductCard = ({
   if (viewMode === "list") {
     return (
       <div className="flex bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-500 p-4">
-        <div className="relative flex-shrink-0 w-32 h-32">
+        <div className="relative flex-shrink-0  w-32 h-32">
           <img
             src={image}
             alt={name}
